@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+dataset/test
+dataset/train
+dataset/validate
+
+# Thư mục môi trường ảo
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Thư mục khác
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# Thư mục cache của pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Thư mục output cho TensorFlow
+tensorboard_logs/
