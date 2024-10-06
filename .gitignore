@@ -13,7 +13,7 @@ build/
 
 dataset/test
 dataset/train
-dataset/validate
+dataset/validation
 
 # Thư mục môi trường ảo
 env/

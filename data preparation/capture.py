@@ -6,16 +6,16 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
 mp_drawing = mp.solutions.drawing_utils
 
-nameoflable = 'Thu_C'
+nameoflable = 'W'
 
-output_dir = f'hand_images/{nameoflable}'
+output_dir = f'D:/HK1 2024 2025/Deep Learning/BTL/Final/dataset/validation/{nameoflable}'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 cap = cv2.VideoCapture(0)
 
 img_count = 0
-max_images = 200
+max_images = 100
 
 padding = 0.5
 
